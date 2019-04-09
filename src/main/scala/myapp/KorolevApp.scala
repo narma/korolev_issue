@@ -1,12 +1,10 @@
 package myapp
 
-import akka.actor.ActorSystem
-import akka.stream.ActorMaterializer
 import korolev._
 import korolev.execution._
 import korolev.server._
-import korolev.state.{ DeviceId, SessionId, StateStorage }
 import korolev.state.javaSerialization._
+import korolev.state.{DeviceId, SessionId, StateStorage}
 
 import scala.concurrent.Future
 
